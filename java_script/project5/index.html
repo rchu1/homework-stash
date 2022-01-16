@@ -1,0 +1,116 @@
+<!-- 
+		Name: <Put name here>
+		Date: <Put date here>
+		Class: CSCI2447, Javascript Fundamentals
+		Project X
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+		<script src= 'js/jquery-3.3.1.min.js'>
+		
+		</script>
+	  <title>Whack-A-Mole (CSCI2447)</title>
+    
+    <!-- CSS styles: This is for me to worry about; not you. -->
+	<link href="css/game.css" rel="stylesheet" />
+	<script>
+		var i;
+		var score=0;
+		var seconds = 30;
+
+		$(document).ready( function() {
+			$('#gamespace').html('<img src="img/mole.jpg" />');
+			$('#timer').show();
+			$('#start_button').click(start);	
+			$("#gamespace").on('click','#mole', totalScore);
+			
+			
+			
+
+
+
+});
+
+
+function start(){
+	$('#start_button').on('click', gameTimer);
+	addMole();
+	i= 	setInterval(gameTimer, 1000);
+	
+$('#gamespace').css('background-color', 'red');
+$('html, body').css('background-color','green');
+
+	}
+       
+   
+
+	
+function randomY(){
+	var y = Math.floor((Math.random()*300)+1);
+		return y;
+}
+	function randomX(){
+		var x=Math.floor((Math.random()*600)+1)
+			return x;
+	}
+	function addMole(){
+		
+		var t = $('#gamespace').append('<img id="mole" src="img/mole.jpg" />');
+  		t = setTimeout(addMole, 2000);
+	
+	}
+	$("#gamespace").on("click", '.moleImg', function(){
+
+$(this).css(addMole());
+   totalScore();
+  });
+	
+function totalScore(){
+	
+	score++;
+	$('#score').html(score + " pts");
+	
+}
+
+function gameTimer() {
+
+	seconds--;
+  $('#timer').html(seconds +" time left");
+	if (seconds ==0){
+		clearInterval(i);
+
+		alert('your time is up')
+		
+		
+	}
+}
+
+</script>
+  </head>
+  <body>
+
+	<div id="content">
+
+		<h1>Whack-A-Mole</h1>
+		
+		<p>After clicking "start", you will have 30 seconds to click
+		as many moles as you can. The moles appear randomly so be ready! </p>
+		
+		<div id="controls">
+			<span id="score">0 pts</span>
+			<button type="button" id="start_button">Start!</button>
+		</div>
+		
+		<div id="timer">30 seconds left</div>
+		
+		<div id="gamespace">
+
+		
+		
+		</div>
+		
+	</div>
+  </body>
+</html>

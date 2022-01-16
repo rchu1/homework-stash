@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Using Conditional Statements</title>
+<link href="site.css" rel="stylesheet">
+<script>
+ 
+var luckyNum = prompt('what is your lucky number? ','');
+luckyNum = parseInt(luckyNum);
+if (isNaN(luckyNum)){
+ luckyNum = prompt('Please tell me your lucky number.','');
+}
+  
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+  <header>
+    JAVASCRIPT <span class="amp">&amp;</span> jQUERY: THE&nbsp;MISSING&nbsp;MANUAL
+  </header>
+  <div class="content">
+    <div class="main">
+      <h1>Using Conditional Statements</h1>
+      <script>
+		if (luckyNum ==7 ){
+      document.write("<p id=good>Hey, 7 is my lucky number too!</p>");
+      document.getElementById("good").style.color = '#FF0000';
+    }else if(luckyNum==13||luckyNum==24) {
+      document.write("<p id=bad>Wooh." + luckyNum+ "? thats an unlucky number!</p>");
+      document.getElementById("bad").style.color = '#00FF00';
+    } else{
+      document.write("<p>The number " + luckyNum + " is lucky for you!</p>");
+    }
+	  </script> 
+    </div>
+  </div>
+  <footer>
+   <p>JavaScript &amp; jQuery: The Missing Manual, 3rd Edition, by <a href="http://sawmac.com/">David McFarland</a>. Published by <a href="http://oreilly.com/">O'Reilly Media, Inc</a>.</p>
+  </footer>
+</div>
+</body>
+</html>

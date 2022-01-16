@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script> 
+function calc(){
+
+var feeDUE = 14.5;
+var leagueDUE = 5;
+
+var leagFee = leagueDUE * 16;
+var courseFee = feeDUE * 16;
+var total = leagFee + courseFee;
+// had help in line 18-21 from a student who took the class last year.
+document.getElementById('league').value= '$' +leagFee.toFixed(2);
+document.getElementById('fee').value= '$' +courseFee.toFixed(2);
+document.getElementById('total').value='$' + total.toFixed(2);
+}
+window.addEventListener('load', calc , false);
+</script> 
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+  <img src="images/hio-logo.png" width="102" height="150" alt="Company Logo" class="formatimage"/>
+  <h1> Hole in ONE</h1>
+ 
+</div>
+<div id="nav">
+<ul id="navlist">
+<li> <a href="index.html"> Home </a> </li>
+<li> <a href="about.html"> About </a> </li>
+<li> <a href="products.html"> Products</a> </li>
+<li> <a href="contact.html"> Contact </a> </li>
+<li> <a href="rules.html"> Rules </a> </li>
+</ul>
+
+</div>
+<div id="main">
+<div id="col1">
+<div id="sub1"><img src="images/golfer4.jpg" width="220" height="290" alt="Pro Golfer"/></div>
+<div id="sub2"><p> Join Now</p></div>
+
+</div>
+
+<div id="col4">
+
+<form>
+<div id="lefta">
+<h2>Our league is 16 weeks long. </h2>
+<p>League dues are $5 per week, and course fees are $14.50 per week.</p>
+
+</div> 
+<div id="righta">
+<input type="text" name="league"  id="league" readonly />League Dues
+<br />
+<input type="text" name="fee"  id="fee" readonly />Golf Course Fees
+<br />
+<input type="text" name="total"  id="total" readonly />Total for the Season
+</div> 
+</form> 
+</div>
+</div>
+
+<div id="footer">
+
+<p> For more information, contact the League Director</p>
+
+</div>
+
+
+
+</div>
+</body>
+</html>

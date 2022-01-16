@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\c#\Exercise5_Rchu\bin\Debug\Exercise5_Rchu.exe.config
+C:\Users\User\Desktop\c#\Exercise5_Rchu\bin\Debug\Exercise5_Rchu.exe
+C:\Users\User\Desktop\c#\Exercise5_Rchu\bin\Debug\Exercise5_Rchu.pdb
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.csprojAssemblyReference.cache
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.Form1.resources
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.Properties.Resources.resources
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.csproj.GenerateResource.cache
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.exe
+C:\Users\User\Desktop\c#\Exercise5_Rchu\obj\Debug\Exercise5_Rchu.pdb

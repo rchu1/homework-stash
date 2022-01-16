@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.exe
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.deps.json
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.runtimeconfig.json
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.runtimeconfig.dev.json
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.dll
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\bin\Debug\netcoreapp3.1\Excersise3_Rchu.pdb
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\obj\Debug\netcoreapp3.1\Excersise3_Rchu.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\obj\Debug\netcoreapp3.1\Excersise3_Rchu.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\obj\Debug\netcoreapp3.1\Excersise3_Rchu.AssemblyInfo.cs
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\obj\Debug\netcoreapp3.1\Excersise3_Rchu.dll
+C:\Users\User\source\repos\Excersise3_Rchu\Excersise3_Rchu\obj\Debug\netcoreapp3.1\Excersise3_Rchu.pdb

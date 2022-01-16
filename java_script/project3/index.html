@@ -1,0 +1,70 @@
+<!-- 
+		Name: <Put name here>
+		Date: <Put date here>
+		Class: CSCI2447, Javascript Fundamentals
+		Project X
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+		<script src= 'js/jquery-3.3.1.min.js'>
+		
+		</script>
+	  <title>Whack-A-Mole (CSCI2447)</title>
+    
+    <!-- CSS styles: This is for me to worry about; not you. -->
+	<link href="css/game.css" rel="stylesheet" />
+	<script>
+		$(document).ready( function() {
+			$('#gamespace').html('<img src="img/mole.jpg" />');
+			$('#timer').show();
+			$('#start_button').click(myFunction);
+			var score = $('#score');
+
+
+});
+function myFunction(){
+	alert('Okay');
+}
+alert(randomY());
+alert (randomX());
+function randomY(){
+	var y = Math.floor((Math.random()*300)+1);
+		return y;
+}
+	function randomX(){
+		var x=Math.floor((Math.random()*600)+1)
+			return x;
+	}
+function totlaScore(){
+	$('#score')[0].innerHTML=score;
+}
+
+</script>
+  </head>
+  <body>
+
+	<div id="content">
+
+		<h1>Whack-A-Mole</h1>
+		
+		<p>After clicking "start", you will have 30 seconds to click
+		as many moles as you can. The moles appear randomly so be ready! </p>
+		
+		<div id="controls">
+			<span id="score">0 pts</span>
+			<button type="button" id="start_button">Start!</button>
+		</div>
+		
+		<div id="timer">30 seconds left</div>
+		
+		<div id="gamespace">
+
+		
+		
+		</div>
+		
+	</div>
+  </body>
+</html>

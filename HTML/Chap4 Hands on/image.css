@@ -1,0 +1,7 @@
+body {
+	background-image: url(twocolor.gif); 
+background-repeat: repeat-y;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}

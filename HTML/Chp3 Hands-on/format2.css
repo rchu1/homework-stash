@@ -1,0 +1,14 @@
+body {
+background-color: yellow;
+
+}
+a { 
+    color: GrayText;
+    background-color: White;
+    text-decoration: none;
+	}
+h1{
+	color : green;
+	font-family:times new roman;
+	background-color: white;
+}

@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\bin\Debug\Excersise 4_Rchu.exe.config
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\bin\Debug\Excersise 4_Rchu.exe
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\bin\Debug\Excersise 4_Rchu.pdb
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise 4_Rchu.csprojAssemblyReference.cache
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise_4_Rchu.Form1.resources
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise_4_Rchu.Properties.Resources.resources
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise 4_Rchu.csproj.GenerateResource.cache
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise 4_Rchu.exe
+C:\Users\User\Desktop\c#\Excersise 4_Rchu\obj\Debug\Excersise 4_Rchu.pdb

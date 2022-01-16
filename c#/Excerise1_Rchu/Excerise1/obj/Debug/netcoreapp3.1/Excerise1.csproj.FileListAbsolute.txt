@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\obj\Debug\netcoreapp3.1\Excerise1.csprojAssemblyReference.cache
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\obj\Debug\netcoreapp3.1\Excerise1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\obj\Debug\netcoreapp3.1\Excerise1.AssemblyInfo.cs
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.exe
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.deps.json
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.runtimeconfig.json
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.runtimeconfig.dev.json
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.dll
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\bin\Debug\netcoreapp3.1\Excerise1.pdb
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\obj\Debug\netcoreapp3.1\Excerise1.dll
+C:\Users\User\Desktop\c#\Excerise1_Rchu\Excerise1\obj\Debug\netcoreapp3.1\Excerise1.pdb

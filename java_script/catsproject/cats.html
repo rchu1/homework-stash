@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Random Cats</title>
+  <meta name="description" content="Random Cats">
+  <meta name="author" content="D. Nowak">
+
+  <!-- We first load the Bootstrap css, and then we add our own css styles after. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <link href="css/jquery.growl.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      background-color: #F8F0EF;
+    }
+	
+	#imageCollection {
+		margin: 5px auto 0 auto;
+		height: 600px;
+		width: 90%;
+		background-color: #EA9380;
+		position: relative;
+	}
+	
+	#imageCollection img {
+		position: absolute;
+	}		
+  </style>
+  </head>
+
+<body>
+  <!-- Begin all bootstrap with a "container" div. -->
+  <div class="container-fluid">
+    
+    <!-- The jumbotron is just a textual display/title area -->
+    <div class="jumbotron">
+      <h1 class="display-4">Random Cats (and one dog) Page</h1>
+      <p class="lead">This is an example of displaying images of cats randomly within a div, being able to click on any of these images, 
+		and displaying different types of growl and notification messages.</p>
+	  <p>(My wife made me add the dog.)</p>
+    </div>
+    
+	<div class="row">
+		<div id="imageCollection"></div>
+	</div>
+  </div>
+  
+  <!-- The following three scripts load jQuery, Popper (used by Boostrap), and then Bootstrap -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+  
+  <script src="js/jquery.growl.js"></script>	<!-- http://ksylvest.github.io/jquery-growl/ -->
+  <script src="js/notify.min.js"></script>		<!-- https://notifyjs.jpillora.com -->
+
+  <script>
+	var images = new  Array(11);
+  var catCount=0;
+  for(var i=1; i<=11; i++ ){
+    images[i] = 'images/cat' + i +'.jpg';
+  }
+  $('#imageCollection').on('click', 'img', growl);
+
+addCat();
+function addCat(){
+catCount++;
+var newCat = new Cat(catCount);
+newCat.display();
+
+var seconds =Math.floor(Math.random()*1000);
+setTimeout(addCat,seconds);
+}
+
+function growl(){
+  $.growl({title:'Click Cat', duration:1000 , style:'noice' ,message: "this cat will be in your next meal."});
+}
+	function Cat(catIdValue){
+    this.divWdith =$('#imageCollection').width();
+    this.divHeight =$('#imageCollection').height();
+    this.divWdith-=256;
+    this.divHeight-=256;
+    
+    this.x= Math.floor(Math.random()* this.divWdith);
+    this.y= Math.floor(Math.random()* this.divHeight);
+    this.randomCat= Math.floor(Math.random()*11)+1;
+
+    catIdValue++;
+    this.catId= 'cat'+ catIdValue;   
+      this.display = function (){
+        var img = '<img id="tokenId" src="tokenCat" style="top: tokenYpx; left: tokenXpx;"/>'
+        img=img.replace('tokenX', this.x);
+        img=img.replace('tokenY',this.y);
+        img=img.replace('tokenCat',images[this.randomCat]);
+        img=img.replace('tokenId',this.catId);
+        $('#imageCollection').append(img);
+      }
+
+
+  }
+  </script>
+  
+  
+</body>
+</html>

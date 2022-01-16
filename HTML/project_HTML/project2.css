@@ -1,0 +1,41 @@
+body {
+      background-color:#F08080 ;
+
+  
+
+      font-family: Arial, Verdana, sans-serif;
+      margin-left: auto;
+      margin-right: auto; 
+      width: auto;
+ 
+
+  }
+
+	background-image: url(img/imagesD.png); 
+background-repeat: repeat-y;
+width: 100%; 
+hight: auto;
+margin-left: 165px;
+margin-right: auto;
+  }
+
+  #maintitle{
+    background-color: ;
+    color: #000000;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-indent: 5em;
+	background-image: url(img/images.png); 
+background-repeat: repeat-x;
+width:50%
+margin-left:5em;
+margin-right: auto;
+  }
+
+ #mainbody{
+    margin-left: auto;
+    margin-right: auto;
+	  } 
+	 
+
+

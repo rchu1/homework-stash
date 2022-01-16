@@ -1,0 +1,59 @@
+body{
+      background-color: #E6E6FA;
+      color: #191970;
+      font-family: Arial, Verdana, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+  }
+
+  #maintitle{
+    background-color: #191970;
+    color: #E6E6FA;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-indent: 1em;
+  }
+
+ #subtitle{
+    background-color: #AEAED4;
+    color: #191970;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+  } 
+
+  #myOtherPages{
+    font-weight: bold;
+    font-size: 1.25em;
+    word-spacing: 1em;
+  }
+
+  #myOtherPages a{
+    text-decoration: none;
+  }
+
+
+
+  #myOtherPages .services{
+    text-decoration: underline;
+  }
+
+  .fewords{
+            font-size: .90em;
+            text-indent: 3em;
+          }
+
+   /* Below is an example of Descendant Selectors */
+
+  .descendant dt{
+    font-weight: bold;
+  }
+
+  .csslist li{font-weight: bold;}
+
+  .unique{
+    font-size: .80em;
+    font-style: italic;
+    text-align: center;
+  }
+
